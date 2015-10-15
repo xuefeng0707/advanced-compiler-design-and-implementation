@@ -27,6 +27,9 @@
     <ClInclude Include="ex_maxargs.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="interpreter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A.c">
@@ -42,6 +45,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ex_maxargs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="interpreter.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

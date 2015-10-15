@@ -2,6 +2,7 @@
 
 #include "program1.h"
 #include "ex_maxargs.h"
+#include "interpreter.h"
 
 int main()
 {
@@ -9,5 +10,7 @@ int main()
 
 	int count = maxargs(stm);
 	printf("print count of program1: %d\n", count);
+
+	Table t = inter_stm(stm, NULL);
 	return 0;
 }

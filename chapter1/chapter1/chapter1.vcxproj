@@ -21,11 +21,13 @@
   <ItemGroup>
     <ClInclude Include="A.h" />
     <ClInclude Include="ex_maxargs.h" />
+    <ClInclude Include="interpreter.h" />
     <ClInclude Include="program1.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A.c" />
+    <ClCompile Include="interpreter.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="ex_maxargs.c" />
     <ClCompile Include="program1.c" />
